@@ -1,0 +1,53 @@
+<RCC>
+    <qresource prefix="/trayicon">
+        <file>images/1.png</file>
+        <file>images/2!.png</file>
+        <file>images/2.png</file>
+        <file>images/3!.png</file>
+        <file>images/3.png</file>
+        <file>images/4!.png</file>
+        <file>images/4.png</file>
+        <file>images/5!.png</file>
+        <file>images/5.png</file>
+        <file>images/6!.png</file>
+        <file>images/6.png</file>
+        <file>images/7!.png</file>
+        <file>images/7.png</file>
+        <file>images/8.png</file>
+        <file>images/9.png</file>
+        <file>images/bulescreen.png</file>
+        <file>images/fileico.png</file>
+        <file>images/图标.png</file>
+        <file>images/背景2.png</file>
+        <file>images/30px.png</file>
+        <file>images/500px.png</file>
+        <file>images/trans.png</file>
+        <file>images/arrow.png</file>
+        <file>images/pencil.png</file>
+        <file>images/Color.png</file>
+        <file>images/black.png</file>
+        <file>images/blue.png</file>
+        <file>images/red.png</file>
+        <file>images/cameratriangle.png</file>
+        <file>images/biz.png</file>
+        <file>images/screenshot.png</file>
+        <file>images/!biz.png</file>
+        <file>images/penthickness.png</file>
+        <file>images/round.png</file>
+        <file>images/A4.png</file>
+        <file>images/1px.png</file>
+        <file>images/3px.png</file>
+        <file>images/6px.png</file>
+        <file>images/blackpen.png</file>
+        <file>images/redpen.png</file>
+        <file>images/save.png</file>
+        <file>images/自拍功能.png</file>
+        <file>images/save!.png</file>
+        <file>images/自拍功能!.png</file>
+        <file>images/open.png</file>
+        <file>images/123.png</file>
+        <file>images/share.png</file>
+        <file>images/!share .png</file>
+        <file>images/typing.png</file>
+    </qresource>
+</RCC>

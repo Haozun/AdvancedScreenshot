@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>733</width>
+    <height>344</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>images/图标.png</normaloff>images/图标.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>299</x>
+     <y>204</y>
+     <width>139</width>
+     <height>140</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_2
+{
+border-image: url(:/trayicon/images/6.png);
+}
+QPushButton#pushButton_2:hover
+{border-image: url(:/trayicon/images/6!.png);}
+QPushButton#pushButton_2:pressed
+{
+border-image: url(:/trayicon/images/6.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>586</x>
+     <y>63</y>
+     <width>143</width>
+     <height>139</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_3
+{
+border-image: url(:/trayicon/images/3.png);
+}
+QPushButton#pushButton_3:hover
+{
+border-image: url(:/trayicon/images/3!.png);
+}
+QPushButton#pushButton_3:pressed
+{
+border-image: url(:/trayicon/images/3.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="closepushButton">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>10</y>
+     <width>35</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/trayicon/images/8.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>20</y>
+     <width>30</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/trayicon/images/9.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="savepushButton">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>204</y>
+     <width>144</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#savepushButton
+{
+border-image: url(:/trayicon/images/save.png);
+}
+QPushButton#savepushButton:hover
+{border-image: url(:/trayicon/images/save!.png);}
+
+QPushButton#savepushButton:pressed
+{
+border-image: url(:/trayicon/images/save.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="RoundpushButton">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>63</y>
+     <width>144</width>
+     <height>139</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#RoundpushButton
+{
+border-image: url(:/trayicon/images/7.png);
+}
+QPushButton#RoundpushButton:hover
+{
+border-image: url(:/trayicon/images/7!.png);
+}
+QPushButton#RoundpushButton:pressed
+{
+border-image: url(:/trayicon/images/7.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="shortcut">
+    <string>N</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="RectpushButton">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>63</y>
+     <width>291</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#RectpushButton
+{
+border-image: url(:/trayicon/images/4.png);
+}
+QPushButton#RectpushButton:hover
+{
+border-image: url(:/trayicon/images/4!.png);
+}
+QPushButton#RectpushButton:pressed
+{
+border-image: url(:/trayicon/images/4.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="FullpushButton">
+   <property name="geometry">
+    <rect>
+     <x>299</x>
+     <y>63</y>
+     <width>139</width>
+     <height>139</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#FullpushButton
+{
+border-image: url(:/trayicon/images/5.png);
+}
+QPushButton#FullpushButton:hover
+{
+border-image: url(:/trayicon/images/5!.png);
+}
+QPushButton#FullpushButton:pressed
+{
+border-image: url(:/trayicon/images/5.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoDefault">
+    <bool>true</bool>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>741</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/trayicon/images/背景2.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBox">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>360</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(139, 117, 103);
+color: rgb(210, 217, 217);</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>329</x>
+     <y>431</y>
+     <width>21</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox::indicator:unchecked {
+background-color: rgb(71, 60, 52);
+
+ }
+QCheckBox::indicator:checked {
+
+	background-color: rgb(187, 255, 166);
+
+ }
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_2">
+   <property name="geometry">
+    <rect>
+     <x>329</x>
+     <y>405</y>
+     <width>21</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox::indicator:unchecked {
+background-color: rgb(71, 60, 52);
+
+ }
+QCheckBox::indicator:checked {
+
+	background-color: rgb(187, 255, 166);
+
+ }
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>590</y>
+     <width>70</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:blue;
+color: rgb(0, 85, 255);</string>
+   </property>
+   <property name="text">
+    <string>先睹为快</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>590</y>
+     <width>81</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:red;
+selection-color: rgb(85, 0, 0);
+color: rgb(85, 0, 0);
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>蓝屏假象</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_3">
+   <property name="geometry">
+    <rect>
+     <x>732</x>
+     <y>580</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-color: rgb(64, 53, 46);</string>
+   </property>
+   <property name="text">
+    <string>隐藏模式</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_4">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>590</y>
+     <width>70</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>真实蓝屏</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="saveDirpushButton">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>383</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(139, 117, 103);
+color: rgb(210, 217, 217);
+font: 75 12pt &quot;Agency FB&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>打     开</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>37</x>
+     <y>408</y>
+     <width>223</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(139, 117, 103);
+border:0px;
+color: rgb(210, 217, 217);</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="radioButton">
+   <property name="geometry">
+    <rect>
+     <x>329</x>
+     <y>380</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox::indicator:unchecked {
+background-color: rgb(71, 60, 52);
+
+ }
+QCheckBox::indicator:checked {
+
+	background-color: rgb(187, 255, 166);
+
+ }
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="radioButton_2">
+   <property name="geometry">
+    <rect>
+     <x>329</x>
+     <y>353</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox::indicator:unchecked {
+background-color: rgb(71, 60, 52);
+
+ }
+QCheckBox::indicator:checked {
+
+	background-color: rgb(187, 255, 166);
+
+ }
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>658</x>
+     <y>420</y>
+     <width>71</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>460</y>
+     <width>741</width>
+     <height>125</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/trayicon/images/123.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>380</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>锐字荣光黑简1.0</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_8
+{
+border-image: url(:/trayicon/images/share.png);
+}
+QPushButton#pushButton_8:pressed
+{
+border-image: url(:/trayicon/images/!share .png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_9">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>350</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>锐字荣光黑简1.0</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_9
+{
+border-image: url(:/trayicon/images/biz.png);
+}
+QPushButton#pushButton_9:pressed
+{
+border-image: url(:/trayicon/images/!biz.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>590</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>快速按两遍</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_5">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>440</y>
+     <width>181</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox::indicator:unchecked {
+background-color: rgb(71, 60, 52);
+
+ }
+QCheckBox::indicator:checked {
+
+	
+	background-color: rgb(99, 96, 109);
+
+ }
+</string>
+   </property>
+   <property name="text">
+    <string>截图背景是否模糊?</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_10">
+   <property name="geometry">
+    <rect>
+     <x>586</x>
+     <y>204</y>
+     <width>143</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_10
+{
+border-image: url(:/trayicon/images/自拍功能.png);
+}
+QPushButton#pushButton_10:hover
+{border-image: url(:/trayicon/images/自拍功能!.png);}
+
+QPushButton#pushButton_10:pressed
+{
+border-image: url(:/trayicon/images/自拍功能.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_11">
+   <property name="geometry">
+    <rect>
+     <x>695</x>
+     <y>202</y>
+     <width>31</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/trayicon/images/open.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCameraViewfinder" name="viewfinder" native="true">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>0</y>
+     <width>441</width>
+     <height>351</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>pushButton_4</zorder>
+  <zorder>label</zorder>
+  <zorder>closepushButton</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>savepushButton</zorder>
+  <zorder>RoundpushButton</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>FullpushButton</zorder>
+  <zorder>RectpushButton</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>spinBox</zorder>
+  <zorder>checkBox</zorder>
+  <zorder>checkBox_2</zorder>
+  <zorder>pushButton_5</zorder>
+  <zorder>checkBox_4</zorder>
+  <zorder>saveDirpushButton</zorder>
+  <zorder>lineEdit</zorder>
+  <zorder>radioButton</zorder>
+  <zorder>radioButton_2</zorder>
+  <zorder>pushButton_6</zorder>
+  <zorder>pushButton_7</zorder>
+  <zorder>pushButton_8</zorder>
+  <zorder>pushButton_9</zorder>
+  <zorder>label_2</zorder>
+  <zorder>checkBox_5</zorder>
+  <zorder>pushButton_10</zorder>
+  <zorder>viewfinder</zorder>
+  <zorder>pushButton_11</zorder>
+  <zorder>checkBox_3</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QCameraViewfinder</class>
+   <extends>QWidget</extends>
+   <header>qcameraviewfinder.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>toggleDown()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>350</x>
+     <y>210</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>140</x>
+     <y>103</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>toggleDown()</slot>
+  <slot>shotScreenSlotsuicide()</slot>
+  <slot>shotScreenSlot()</slot>
+  <slot>on_RectpushButton_clicked()</slot>
+ </slots>
+</ui>
